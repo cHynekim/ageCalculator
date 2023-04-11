@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calScript.js" defer type="text/javascript"></script>
+    <link href="calStyle.css" rel="stylesheet" type="text/css">
+    <title>How old are you?</title>
+</head>
+<body>
+    <div id="wrap">
+        <header id="title">
+            <h1>만 나이 계산기</h1>
+            <h4>당신의 나이는 몇살일까요?</h4>
+        </header>
+        <main>
+            <form>
+                <label class="subtitle" for="birthday">
+                    생년월일
+                    <br>
+                    <input id="birthday" type="date">
+                </label>
+            </form>
+            <div id="result">
+                <p class="agetitle">만 나이는</p>
+                <p id="age"></p>
+            </div>
+            <button id="btn" type="submit">계산하기</button>
+        </main>
+    </div>
+</body>
+</html>
