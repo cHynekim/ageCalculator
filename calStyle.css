@@ -94,6 +94,6 @@ form /*inputSection*/{
         width: 350px;
     }
     .subtitle input, #btn{
-        width: 350px;
+        width: 100%;
     }
 }
