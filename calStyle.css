@@ -93,7 +93,7 @@ form /*inputSection*/{
     main{
         width: 80%;
     }
-    label{
+    form, label{
         width: 100%;
     }
     #btn{
