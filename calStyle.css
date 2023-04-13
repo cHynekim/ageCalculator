@@ -93,7 +93,7 @@ form /*inputSection*/{
     main{
         width: 350px;
     }
-    #birthday, #btn{
+    .subtitle, #birthday, #btn{
         width: 350px;
     }
 }
