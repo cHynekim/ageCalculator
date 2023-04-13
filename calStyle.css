@@ -91,12 +91,9 @@ form /*inputSection*/{
         margin-top: 10%;
     }
     main{
-        width: 80%;
+        width: 350px;
     }
-    form, label{
-        width: 100%;
-    }
-    #btn{
-        width: 100%;
+    #birthday, #btn{
+        width: 350px;
     }
 }
